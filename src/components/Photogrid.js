@@ -15,7 +15,16 @@ export default function photogrid() {
   }
   return (
     <section className="photogrid-area-class">
+      <div className="image-container">
+
       <img src="images1/home-wallpaper.jpg" className="photogridimage"></img>
+      <h1 className="text-div">EXPERIENCES
+      </h1>
+      <span className="short-text">OF A LIFE TIME</span>
+      
+
+      </div>
+      
       <div id main-contents>
         <h1 className="main-title">Welcome To our Site</h1>
         <p className="main-paragraph">

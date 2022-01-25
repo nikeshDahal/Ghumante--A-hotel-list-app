@@ -56,6 +56,37 @@
   margin-top: 10px;
   /* padding: 20px; */
 }
+.image-container{
+
+  position: relative;
+  text-align: center;
+  width: auto;
+ 
+}
+
+.text-div{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+  text-shadow: 0 0 20px rgb(15 20 48 / 80%);
+}
+.short-text{
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+
+}
+
 .photogridimage {
   border-radius: 1%;
   box-shadow: 12px 13px 8px 0px rgba(0, 0, 0, 0.1);
@@ -63,7 +94,8 @@
 
   margin-left: 100px;
   margin-right: 100px;
-  height: 450px;
+  height: 472px;
+  width: 85%;
   /* align-self: center; */
 }
 .main-title {
@@ -88,7 +120,7 @@ body {
   display: flex;
   /* align-items: center; */
   font-family: "Inter", sans-serif;
-  /* background-color: whitesmoke; */
+  /* background-color: rgb(143, 64, 64); */
 }
 
 .container {
