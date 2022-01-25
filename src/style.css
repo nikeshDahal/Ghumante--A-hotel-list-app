@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800|Pacifico|Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 30 px;
+  box-shadow: 10px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-direction: row;
+
+}
+.navbar>span{
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: 10px;
+  font-size: 2.5em;
+  color: rgb(4, 77, 119) ;
+  font-weight: bold;
+ 
+  
+
+}
+
+.listitems-navbar {
+  display: flex;
+  list-style: none;
+ 
+}
+
+.listitems-navbar > li {
+  padding-right: 20px;
+  text-size-adjust: 100%;
+  text-decoration-style: solid;
+}
+.listitems-navbar > li:hover {
+  /* background-color: #fc6b77; */
+  /* text-decoration-line: underline; */
+  color: rgb(2, 38, 58) ;
+  border-bottom: 4px solid rgb(2, 38, 58) ;;
+}
+
+.navbar-image {
+  margin-top: 3px;
+  margin-left: 10px;
+  width: 80px;;
+  height: 75;
+  margin-bottom: 3px;
+}
+.photogrid-area-class {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10px;
+  /* padding: 20px; */
+}
+.photogridimage {
+  border-radius: 1%;
+  box-shadow: 12px 13px 8px 0px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 450px;
+  /* align-self: center; */
+}
+.main-title {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.main-paragraph {
+  margin-left: 100px;
+  margin-right: 700px;
+  text-align: left;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  font-family: "Inter", sans-serif;
+  /* background-color: whitesmoke; */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(247, 247, 247);
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-card {
+  flex-basis: 350px;
+  box-shadow: 0px 2px 9px 0px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 1px;
+  background-color: rgb(248, 248, 248);
+  height: 370px;
+  margin-top: 10px;
+  padding-right: 10px;
+  margin: 13px;
+  position: relative;
+  
+}
+
+.status-badge{
+  
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background-color: rgb(247, 247, 247);
+  padding: 1px 2px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+
+
+.contact-card > img {
+  width: 100%;
+  height: 50%;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.contact-card > h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.contact-card >span{
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+}
+
+.locationimg{
+  padding-left: 10px;
+}
+
+
+.info-group {
+  display: flex;
+  align-items: center;
+}
+
+.info-group > img {
+  height: 15px;
+  margin-right: 8px;
+}
+
+.info-group > p {
+  /* margin-block: 3px; */
+  font-size: 15px;
+  color: #2b283a;
+}
+.read-more-button{
+  
+  padding-left: 30px;
+  
+}
+.footer {
+  justify-content: center;
+  background-color: rgb(1, 57, 87) ;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+/* jokes section */
+.jokes-title {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(2, 38, 58) ;
+  /* text-decoration: underline; */
+}
+.jokesDiv {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  padding-bottom: 1px;
+  background-color: rgb(235, 245, 252);
+  border-radius: 10px;
+  
+  
+}
