@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e2fbeab.css",
+    "main.js": "/static/js/main.d24766cc.js",
+    "static/media/126-1269928_png-file-svg-call-email-website-icon-clipart.png": "/static/media/126-1269928_png-file-svg-call-email-website-icon-clipart.5178c1633097155056a8.png",
+    "static/media/pexels-photo-674010.jpeg": "/static/media/pexels-photo-674010.33433d3534348f9f0cbe.jpeg",
+    "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
+    "static/media/Simple-Phone-Icon-In-Circle-png-hd.png": "/static/media/Simple-Phone-Icon-In-Circle-png-hd.d9e7ab285e0e75e9d462.png",
+    "index.html": "/index.html",
+    "main.0e2fbeab.css.map": "/static/css/main.0e2fbeab.css.map",
+    "main.d24766cc.js.map": "/static/js/main.d24766cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2fbeab.css",
+    "static/js/main.d24766cc.js"
+  ]
+}
